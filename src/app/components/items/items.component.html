@@ -1,0 +1,8 @@
+<div>
+    <!--Iterar para cada elemento y poder ver cada uno de los objetos-->
+    <app-item 
+    *ngFor="let item of items" 
+    [item]="item"
+    (deleteItem)="deleteItem($event)"></app-item>
+
+</div>
