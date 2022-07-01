@@ -1,0 +1,25 @@
+
+<h1>Add Item wors</h1>
+
+
+<form action="" (ngSubmit)="onSubmit()">
+    <h2>Registra un nuevo artículo</h2>
+    <div>
+        <label for="">Id del artículo</label>
+        <input type="text" name="id" id="" [(ngModel)]="id"> {{title}}
+    </div>
+    <div>
+        <label for="">Nombre del artículo</label>
+        <input type="text" name="title" id="" [(ngModel)]="title"> {{title}}
+    </div>
+    <div>
+        <label for="">Precio</label>
+        <input type="text" name="price" id="" [(ngModel)]="price">{{price}}
+    </div>
+    <div>
+        <label for="">Cantidad</label>
+        <input type="text" name="quantity" id="" [(ngModel)]="quantity">{{quantity}}
+    </div>
+
+    <input type="submit" value="Crear">
+</form>
